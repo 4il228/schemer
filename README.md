@@ -151,7 +151,7 @@ blueprint-classifier/
 │   │   └── inference.py      # Классификатор (YOLOv8 + Decision Matrix)
 │   └── main.py               # Точка входа, Lifespan
 ├── models/
-│   └── best.pt               # Веса модели (не в git)
+│   └── best.pt               # Веса модели
 ├── tests/
 ├── Dockerfile
 ├── docker-compose.yml

@@ -144,7 +144,7 @@ blueprint-classifier/
 │   │   └── inference.py      # Класс-обертка над YOLOv8, логика Decision Matrix
 │   └── main.py               # Точка входа, Lifespan events
 ├── models/
-│   └── best.pt               # Игнорируется в git, монтируется через volume
+│   └── best.pt               # Веса модели
 ├── tests/
 │   └── test_api.py           # Pytest интеграционные тесты
 ├── Dockerfile                # Инструкции сборки образа
